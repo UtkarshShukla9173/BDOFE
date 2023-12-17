@@ -1,0 +1,107 @@
+
+
+p {
+  font-size: 18px;
+  font-family: Gilroy-Regular;
+  
+}
+a {
+  text-decoration: none;
+
+}
+figure{
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+video{
+  width: 100%;
+}
+
+
+
+header {
+ 
+  background: rgb(0, 0, 0);
+color: #ffffff;
+}
+
+
+
+/* nav part start ----------------------------- */
+
+header nav , .page-nav ul{
+
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.page-nav ul li{
+  margin-left: 20px;
+}
+.page-nav ul li a{
+  color: white;
+}
+
+.form-wrapper{
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+.form-wrapper .heading{
+  background-color:rgb(137, 255, 2);
+  padding: 5px 20px;
+ 
+}
+.form-cover{
+  padding: 20px;
+}
+
+thead tr{
+  background: #adf39f !important;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-1adbn6x).ant-table-wrapper .ant-table-thead >tr>td {
+  position: relative;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  text-align: start;
+  background: #fafafa00;
+
+}
+
+.btn{
+  padding: 5px 20px;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  height: auto;
+  background-color: #41d424;
+  border: 2px solid #41d424;
+}
+.btn-trans{
+  padding: 5px 20px;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 18px;
+  height: auto;
+  border: 2px solid rgb(46, 46, 46);
+  background-color: rgba(65, 212, 36, 0);
+}
+
+:where(.css-dev-only-do-not-override-1adbn6x).ant-select-multiple .ant-select-selector {
+ 
+  padding: 5px 4px;
+  border-radius: 10px;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-form-item .ant-form-item-label >label {
+ 
+  font-size: 17px;
+  font-weight: 500;
+}
+.d-none{
+  display: none;
+}
